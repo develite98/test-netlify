@@ -1,0 +1,540 @@
+{
+	"info": {
+		"_postman_id": "080cc670-4312-45fa-8c97-8a3d334c9df7",
+		"name": "fx news",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://vn.investing.com/economic-calendar/Service/getCalendarFilteredData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache",
+						"disabled": true
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "*/*",
+						"disabled": true
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": true
+					},
+					{
+						"key": "Origin",
+						"value": "https://vn.investing.com",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://vn.investing.com/economic-calendar/",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "logglytrackingsession=c97084fd-d1db-4be5-ab78-78cee9964a99; PHPSESSID=r3q6u3dlfkjaoo70bgdsh8rvpl; geoC=VN; adBlockerNewUserDomains=1616170682; gtmFired=OK; StickySession=id.3737033175.091vn.investing.com; udid=5aa55c789ecaf146dc976c97a1d0b23c; smd=5aa55c789ecaf146dc976c97a1d0b23c-1616170681; protectedMedia=2; _ga=GA1.2.1272756298.1616170683; _gid=GA1.2.412933733.1616170683; _fbp=fb.1.1616170683098.334623982; G_ENABLED_IDPS=google; OB-USER-TOKEN=26d2d90b-f923-4028-a0c9-d83c7d2dd1d6; __gads=ID=83208b06d0ce95b4-2279ae66a1c600d5:T=1616170683:S=ALNI_MYDreKLB8fJC0zktuFhB38O4gPFJA; r_p_s_n=1; adsFreeSalePopUp=2; nyxDorf=YmYwYmc0NHYwYWhnNHlmbTZ5MWszNjI5; outbrain_cid_fetch=true",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "country[]",
+							"value": "33",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "14",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "34",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "38",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "32",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "51",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "39",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "72",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "60",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "110",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "43",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "71",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "22",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "36",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "26",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "12",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "37",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "178",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "17",
+							"type": "text"
+						},
+						{
+							"key": "dateFrom",
+							"value": "2021-03-19",
+							"type": "text"
+						},
+						{
+							"key": "dateTo",
+							"value": "2021-03-20",
+							"type": "text"
+						},
+						{
+							"key": "timeZone",
+							"value": "110",
+							"type": "text"
+						},
+						{
+							"key": "timeFilter",
+							"value": "timeRemain",
+							"type": "text"
+						},
+						{
+							"key": "currentTab",
+							"value": "custom",
+							"type": "text"
+						},
+						{
+							"key": "limit_from",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://vn.investing.com/economic-calendar/Service/getCalendarFilteredData",
+					"protocol": "https",
+					"host": [
+						"vn",
+						"investing",
+						"com"
+					],
+					"path": [
+						"economic-calendar",
+						"Service",
+						"getCalendarFilteredData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/getCalendarFilteredData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Origin",
+						"value": "https://vn.investing.com"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Referer",
+						"value": "https://vn.investing.com/economic-calendar/"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cookie",
+						"value": "logglytrackingsession=c97084fd-d1db-4be5-ab78-78cee9964a99; PHPSESSID=r3q6u3dlfkjaoo70bgdsh8rvpl; geoC=VN; adBlockerNewUserDomains=1616170682; gtmFired=OK; StickySession=id.3737033175.091vn.investing.com; udid=5aa55c789ecaf146dc976c97a1d0b23c; smd=5aa55c789ecaf146dc976c97a1d0b23c-1616170681; protectedMedia=2; _ga=GA1.2.1272756298.1616170683; _gid=GA1.2.412933733.1616170683; _fbp=fb.1.1616170683098.334623982; G_ENABLED_IDPS=google; OB-USER-TOKEN=26d2d90b-f923-4028-a0c9-d83c7d2dd1d6; __gads=ID=83208b06d0ce95b4-2279ae66a1c600d5:T=1616170683:S=ALNI_MYDreKLB8fJC0zktuFhB38O4gPFJA; r_p_s_n=1; adsFreeSalePopUp=2; nyxDorf=YmYwYmc0NHYwYWhnNHlmbTZ5MWszNjI5; outbrain_cid_fetch=true"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "country[]",
+							"value": "33",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "14",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "34",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "38",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "32",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "51",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "39",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "72",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "60",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "110",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "43",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "71",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "22",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "36",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "26",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "12",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "37",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "178",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "country[]",
+							"value": "17",
+							"type": "text"
+						},
+						{
+							"key": "dateFrom",
+							"value": "2021-03-19",
+							"type": "text"
+						},
+						{
+							"key": "dateTo",
+							"value": "2021-03-20",
+							"type": "text"
+						},
+						{
+							"key": "timeZone",
+							"value": "110",
+							"type": "text"
+						},
+						{
+							"key": "timeFilter",
+							"value": "timeRemain",
+							"type": "text"
+						},
+						{
+							"key": "currentTab",
+							"value": "custom",
+							"type": "text"
+						},
+						{
+							"key": "limit_from",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "lang",
+							"value": "vi-vn",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/getCalendarFilteredData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getCalendarFilteredData"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
